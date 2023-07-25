@@ -1,0 +1,40 @@
+* {
+  user-select: none;
+}
+
+.Question {
+  background-color: #eeeeee;
+  color: #343434;
+  width: 80vw;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Answers {
+  display: grid;
+  grid-template-columns: repeat(2, 40vw);
+}
+
+.AnswerButton {
+  background-color: #dddddd;
+  width: calc(40vw - 10px);
+  height: 100px;
+  border-radius: 10px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.AnswerButton:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+
+.AnswerButton:active {
+  background-color: #aaaaaa;
+  color: #222222;
+}
