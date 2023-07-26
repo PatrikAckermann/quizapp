@@ -1,6 +1,6 @@
 {
   "name": "quizapp-example",
-  "homepage": "https://patrikackermann.github.io/quizapp",
+  "homepage": "https://quiz.ackrmn.dev/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
